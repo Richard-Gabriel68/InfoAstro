@@ -23,13 +23,21 @@ main {
         justify-content: space-between;
         height: 40vh;
         width: 75vw;
-        background-color: #dddddd46;
+        /*background-color: #dddddd46;*/
         .Um {
             background-color: #ccc;
+            background-image: url("../img/IA1.jpg");
+            background-position: center;
+            background-size: cover;
+            box-shadow: 4px 4px 10px #272847;
             width: 45%;
         }
         .Dois {
             background-color: #ccc;
+            background-image: url("../img/IA2.jpg");
+            background-position: center;
+            background-size: cover;
+            box-shadow: 4px 4px 10px #272847;
             width: 45%;
         }
     }
@@ -60,7 +68,7 @@ main {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     main {
         .destaques {
             flex-direction: column;
@@ -68,16 +76,18 @@ main {
             width: 90vw;
             .Um {
                 width: 100%;
-                height: 40%;
+                height: 45%;
             }
             .Dois {
                 width: 100%;
-                height: 40%;
+                height: 45%;
             }
         }
     
         .favoritos {
-    
+            width: 90vw;
+            padding: 1rem 0;
+
             .icones {
                 display: flex;
                 height: 100%;
